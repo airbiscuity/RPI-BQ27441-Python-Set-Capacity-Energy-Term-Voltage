@@ -5,9 +5,9 @@ This is a Python3 i2c script for the BQ27441-G1 fuel gauge by Texas Instruments
 
 I've been searching everywhere on the internet for python scripts and C code to set the following parameters:
 
-* Design Capacity (in maH)
-* Design Energy (capacity in maH x 3.7)
-* Termination Voltage (typically 3200 mv)
+* Design Capacity (in mAh)
+* Design Energy (capacity in mAh x 3.7)
+* Termination Voltage (typically 3200 mV)
 
 These are the following links that i've found for various C and Python Code - some of it on GitHub but still doesn't seem to work on RPI's and C/Python:
 
