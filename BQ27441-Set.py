@@ -1,3 +1,5 @@
+#Version 1.0 BQ27441 SET Code 17th December 2020
+
 import smbus
 import time
 import struct
@@ -45,8 +47,8 @@ bus.write_byte_data(address,0x4d,0xae) #writing design energy (1500x3.7)
 
 time.sleep(1)
 
-bus.write_byte_data(address,0x50,0x0b) #writing termination voltage (3000)
-bus.write_byte_data(address,0x51,0xb8) #writing termination voltage (3000)
+bus.write_byte_data(address,0x50,0x0c) #writing termination voltage (3000)
+bus.write_byte_data(address,0x51,0x80) #writing termination voltage (3000)
 # 0x0b+0xb8 = 3000 mv
 # 0x0c+0x80 = 3200 mv
 
